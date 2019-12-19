@@ -1,0 +1,7 @@
+to configure custom vpc
+
+Create vpc with 10.0.0.0/16
+create subnets connecting the vpc created 10.0.1.0/24, 10.0.2.0/24
+create internet Gateways
+create Route tables and link with subnets and internet Gateways
+create new route (0.0.0.0/0) to connect with public
